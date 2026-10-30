@@ -1,5 +1,7 @@
 # quota-glance
 
+[![test](https://github.com/questionjie-max/quota-glance/actions/workflows/test.yml/badge.svg)](https://github.com/questionjie-max/quota-glance/actions/workflows/test.yml)
+
 **把 AI 订阅额度做成一块"一眼看"的屏。** 电脑采集 → 渲染灰度 PNG → 不越狱的 Kindle（或任何浏览器）拉取。
 
 左边是额度窗口（5 小时 / 周 / 月，带时间进度尺），右边是**按模型拆开的消耗**——谁吃得最多，一眼看到。
@@ -46,7 +48,8 @@
 
 ```bash
 pip install pillow
-git clone <this repo> && cd quota-glance
+git clone https://github.com/questionjie-max/quota-glance.git
+cd quota-glance
 
 python -m quota_glance serve --demo     # 假数据，先看效果
 python -m quota_glance serve            # 真实数据
