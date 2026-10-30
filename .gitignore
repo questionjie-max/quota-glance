@@ -1,0 +1,14 @@
+# 本地真实数据，绝不提交
+config.json
+live.png
+*.local.*
+__pycache__/
+*.pyc
+.DS_Store
+
+# 桌面启动器是构建产物，里面编译进了本机绝对路径
+*.app/
+
+# CLI 默认输出
+dashboard.png
+out.png

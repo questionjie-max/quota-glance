@@ -1,0 +1,14 @@
+{
+  "_说明": [
+    "大部分情况不需要这个文件：装了 Magpie 就直接读它的本地额度。",
+    "这里只放 Magpie 覆盖不到的 provider。没填的那家会显示『不可用 + 原因』，不影响别家。",
+    "复制成 config.json，或放 ~/.config/quota-glance/config.json，或用 QUOTA_GLANCE_CONFIG 指路。"
+  ],
+
+  "opencode_api_key": "",
+  "zcode_api_key": "",
+  "zcode_cn": false,
+  "zcode_organization": "",
+  "zcode_project": "",
+  "workbuddy_cookie": ""
+}

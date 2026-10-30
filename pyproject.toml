@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quota-glance"
+version = "0.1.0"
+description = "把 AI 订阅额度做成一块一眼能看的屏（Kindle / 任何浏览器）"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = ["pillow>=9"]
+
+[project.scripts]
+quota-glance = "quota_glance.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/questionjie-max/quota-glance"
+
+[tool.setuptools]
+packages = ["quota_glance"]
